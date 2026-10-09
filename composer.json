@@ -1,0 +1,25 @@
+{
+    "name": "techavenuelabs/module-zebchat-widget",
+    "description": "ZebChat live chat for Magento 2 / Adobe Commerce: sign in, pick the store's website and turn the chat on or off.",
+    "type": "magento2-module",
+    "version": "1.1.2",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Tech Avenue Labs",
+            "homepage": "https://www.zebchat.com/"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Zebchat\\Widget\\": ""
+        }
+    }
+}

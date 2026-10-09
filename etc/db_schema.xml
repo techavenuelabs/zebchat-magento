@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="zebchat_state" resource="default" engine="innodb" comment="ZebChat connection">
+        <column xsi:type="smallint" name="id" unsigned="true" nullable="false" identity="false" default="1" comment="Single row"/>
+        <column xsi:type="mediumtext" name="state" nullable="true" comment="JSON bag"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="id"/>
+        </constraint>
+    </table>
+</schema>

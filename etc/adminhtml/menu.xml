@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Backend/etc/menu.xsd">
+    <menu>
+        <add id="Zebchat_Widget::settings" title="ZebChat" module="Zebchat_Widget" sortOrder="80" resource="Zebchat_Widget::settings" action="zebchat/settings/index"/>
+    </menu>
+</config>
